@@ -11,6 +11,10 @@ class BusinessCard:
         return f"{self.name}  ,  {self.surname}  ,  {self.company}  ,  {self.job_position}  ,  {self.e_mail}"
     #def __repr__(self):
         #return f"BusinessCard (name={self.name} surname={self.surname} company={self.company} job_position={self.job_position} e_mail={self.e_mail}"
+    def contact(self):
+        return f"Kontaktuje sie z {self.name}  ,  {self.surname}  ,  {self.job_position}  ,  {self.e_mail}"
+
+
 
 MagdaRatajczak = BusinessCard(name = "Magda" ,surname = "Ratajczak", company = "Big_company", job_position = "technical advisor", e_mail = "magda.ratajczak@company.pl" )
 StanislawRatajczak = BusinessCard(name = "Stanislaw" ,surname = "Ratajczak", company = "Very_Big_COmpany", job_position = "boss", e_mail = "boss@boss.pl" )
